@@ -1,0 +1,618 @@
+{
+  "department": [
+    {
+      "name": "Project-manager",
+      "id": 1
+    },
+    {
+      "name": "project-lead",
+      "id": 2
+    },
+    {
+      "name": "project-sales",
+      "id": 3
+    },
+    {
+      "name": "Sales-Representative",
+      "id": 4
+    },
+    {
+      "name": "Sales-Representative",
+      "id": 5
+    },
+    {
+      "name": "IT-Department",
+      "id": 6
+    },
+    {
+      "name": "IT",
+      "id": 7
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "publicedited",
+      "clientName": "apple",
+      "projectStartDate": "2021-11-11",
+      "projectDueDate": "2021-11-30",
+      "projectLead": "abcd",
+      "projectManager": "kush",
+      "notes": "tryryry",
+      "createdBy": "4",
+      "id": 3
+    },
+    {
+      "projectName": "",
+      "clientName": "",
+      "projectStartDate": "",
+      "projectDueDate": "",
+      "projectLead": "",
+      "projectManager": "",
+      "notes": "",
+      "createdBy": "",
+      "id": 4
+    },
+    {
+      "projectName": "testing",
+      "clientName": "abcd",
+      "projectStartDate": "2021-11-01",
+      "projectDueDate": "2021-11-12",
+      "projectLead": "abcd",
+      "projectManager": "kush",
+      "notes": "",
+      "createdBy": "4",
+      "id": 5
+    },
+    {
+      "projectName": "asdsd",
+      "clientName": "tanay",
+      "projectStartDate": "2021-11-04",
+      "projectDueDate": "2021-11-24",
+      "projectLead": "abcd",
+      "projectManager": "kush",
+      "notes": "",
+      "createdBy": "4",
+      "id": 6
+    },
+    {
+      "projectName": "kkkkkggggbd",
+      "clientName": "abcd",
+      "projectStartDate": "2021-11-04",
+      "projectDueDate": "2021-11-12",
+      "projectLead": [
+        "kush",
+        "abcd"
+      ],
+      "projectManager": [
+        "kush",
+        "try"
+      ],
+      "notes": "",
+      "createdBy": "4",
+      "id": 7
+    },
+    {
+      "projectName": "Translation",
+      "clientName": "testingclient",
+      "projectStartDate": "2021-11-10",
+      "projectDueDate": "2021-12-11",
+      "projectLead": [
+        "kush"
+      ],
+      "projectManager": [
+        "abds"
+      ],
+      "notes": "This is translation project of 3000 words for the german client.",
+      "createdBy": "4",
+      "id": 8
+    },
+    {
+      "projectName": "hello",
+      "clientName": "kush",
+      "projectStartDate": "2021-11-21",
+      "projectDueDate": "2021-11-25",
+      "projectLead": [
+        "abcd"
+      ],
+      "projectManager": [
+        "try"
+      ],
+      "notes": "hello this is a note",
+      "createdBy": "4",
+      "id": 9
+    },
+    {
+      "projectName": "heyo",
+      "clientName": "kush",
+      "projectStartDate": "2021-11-02",
+      "projectDueDate": "2021-11-15",
+      "projectLead": [
+        "abcd"
+      ],
+      "projectManager": [
+        "try"
+      ],
+      "notes": "hello",
+      "createdBy": "4",
+      "id": 10
+    }
+  ],
+  "clients": [
+    {
+      "clientName": "abcdef",
+      "clientAdress": "1362 sector 4",
+      "clientCity": "gurgaon",
+      "clientCountry": "India",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "abcd",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 1
+    },
+    {
+      "clientName": "kush",
+      "clientAdress": "1362 sector 4",
+      "clientCity": "gurgaon",
+      "clientCountry": "India",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "abcd",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 5
+    },
+    {
+      "clientName": "kush",
+      "clientAdress": "1362 sector 4",
+      "clientCity": "gurgaon",
+      "clientCountry": "India",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "abcd",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 2
+    },
+    {
+      "clientName": "kush",
+      "clientAdress": "1362 sector 4",
+      "clientCity": "gurgaon",
+      "clientCountry": "India",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "abcd",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 3
+    },
+    {
+      "clientName": "kush",
+      "clientAdress": "1362 sector 4",
+      "clientCity": "gurgaon",
+      "clientCountry": "India",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "abcd",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 4
+    },
+    {
+      "clientName": "",
+      "clientAdress": "",
+      "clientCity": "",
+      "clientCountry": "",
+      "clientPostalCode": "",
+      "clientSalesRepresentative": "",
+      "clientProjectLead": "",
+      "clientProjectManager": "",
+      "createdBy": "",
+      "id": 6
+    },
+    {
+      "clientName": "tanay",
+      "clientAddress": "qwr",
+      "clientCity": "ggn",
+      "clientCountry": "Bahamas",
+      "clientPostalCode": "12201",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "kush",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 7
+    },
+    {
+      "clientName": "salman",
+      "clientAddress": "sector 120",
+      "clientCity": "delhi",
+      "clientCountry": "Armenia",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "kush",
+      "clientProjectLead": "kush",
+      "clientProjectManager": "kush",
+      "createdBy": "4",
+      "id": 8
+    },
+    {
+      "clientName": "abcd",
+      "clientAddress": "1232",
+      "clientCity": "ggn",
+      "clientCountry": "Andorra",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": "polo",
+      "clientProjectLead": "kush",
+      "clientProjectManager": "try",
+      "createdBy": "4",
+      "id": 9
+    },
+    {
+      "clientName": "news",
+      "clientAddress": "123 ggn",
+      "clientCity": "ggn",
+      "clientCountry": "Australia",
+      "clientPostalCode": "122001",
+      "clientSalesRepresentative": [
+        "polo",
+        "kush"
+      ],
+      "clientProjectLead": "abcd",
+      "clientProjectManager": [
+        "try"
+      ],
+      "createdBy": "4",
+      "id": 10
+    },
+    {
+      "clientName": "testingclient",
+      "clientAddress": "78/43, Ghaziabad",
+      "clientCity": "Ghazibad",
+      "clientCountry": "India",
+      "clientPostalCode": "333221",
+      "clientSalesRepresentative": [
+        "kush"
+      ],
+      "clientProjectLead": [
+        "kush"
+      ],
+      "clientProjectManager": [
+        "abds",
+        "kush"
+      ],
+      "createdBy": "4",
+      "id": 11
+    }
+  ],
+  "auth": [
+    {
+      "name": "kush",
+      "email": "kush@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "salman",
+      "email": "salman@gmail.com",
+      "password": "salman",
+      "id": 3
+    },
+    {
+      "name": "Jaspreet",
+      "email": "jaspreet@gmail.com",
+      "password": "jaspreet",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "happy",
+      "email": "and@and.com",
+      "mobile": "1234567890",
+      "createdBy": "9",
+      "id": 11
+    },
+    {
+      "name": "salman",
+      "email": "salman@gmail.com",
+      "mobile": "9089098789",
+      "createdBy": "3",
+      "id": 12
+    },
+    {
+      "name": "abcd",
+      "email": "abcd@abc.com",
+      "mobile": "1234567890",
+      "createdBy": "4",
+      "id": 14
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 15
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 16
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 17
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 18
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 19
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 20
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 21
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 22
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 23
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 24
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 25
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 26
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 27
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "id": 28
+    },
+    {
+      "name": "abds",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Project-Manager",
+      "createdBy": "4",
+      "id": 29
+    },
+    {
+      "name": "logo",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Project-Manager",
+      "createdBy": "4",
+      "id": 30
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Project-Manager",
+      "createdBy": "4",
+      "id": 31
+    },
+    {
+      "name": "try",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Project-Manager",
+      "createdBy": "4",
+      "id": 32
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Project-Lead",
+      "createdBy": "4",
+      "id": 33
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "createdBy": "4",
+      "department": "Sales-Representative",
+      "id": 34
+    },
+    {
+      "name": "kush",
+      "email": "kush@abc.com",
+      "mobile": "1234567899",
+      "department": "Sales-Representative",
+      "createdBy": "4",
+      "id": 35
+    },
+    {
+      "name": "abcd",
+      "email": "abc.test@gmail.com",
+      "mobile": "9811400370",
+      "department": "Project-Lead",
+      "createdBy": "4",
+      "id": 36
+    },
+    {
+      "name": "kushkk",
+      "email": "kk@kg.com",
+      "mobile": "1230984756",
+      "department": "Project-manager",
+      "createdBy": "4",
+      "id": 37
+    },
+    {
+      "name": "polo",
+      "email": "polo@polo.com",
+      "mobile": "1234567890",
+      "department": "Sales-Representative",
+      "createdBy": "4",
+      "id": 38
+    },
+    {
+      "name": "salmanahamd",
+      "email": "salman@gmail.com",
+      "mobile": "9877484994",
+      "department": "IT-Department",
+      "createdBy": "4",
+      "id": 39,
+      "bankName": "HDFC LTD",
+      "accountNo": "937478787878",
+      "holderName": "salman ahmad ahmad",
+      "ifscCode": "37373773323232",
+      "address": "FLAT-H, Third Floor, Unione Residency",
+      "city": "Ghaziabad",
+      "dob": "01/11/20",
+      "religion": ""
+    },
+    {
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "mobile": "1290384756",
+      "department": "project-lead",
+      "createdBy": "4",
+      "id": 40
+    },
+    {
+      "name": "hell",
+      "email": "hellheaven@gmail.com",
+      "mobile": "1234567890",
+      "department": "project-lead",
+      "createdBy": "4",
+      "id": 41
+    },
+    {
+      "name": "neww",
+      "email": "neww@new.com",
+      "mobile": "1233214566",
+      "department": "Project-manager",
+      "createdBy": "4",
+      "id": 42
+    },
+    {
+      "name": "good",
+      "email": "good@email.com",
+      "mobile": "1234567890",
+      "department": "project-lead",
+      "id": 43
+    },
+    {
+      "name": "fall",
+      "email": "fall@gmail.com",
+      "mobile": "1234567899",
+      "department": "Sales-Representative",
+      "createdBy": "4",
+      "id": 44
+    },
+    {
+      "name": "hello",
+      "email": "hello@mail.com",
+      "mobile": "0987654321",
+      "department": "project-lead",
+      "createdBy": "4",
+      "id": 45
+    },
+    {
+      "name": "hill",
+      "email": "hill@hill.com",
+      "mobile": "2345678901",
+      "department": "project-lead",
+      "createdBy": "4",
+      "id": 46
+    },
+    {
+      "name": "alll",
+      "email": "all@all.com",
+      "mobile": "1234567890",
+      "department": "project-lead",
+      "createdBy": "4",
+      "id": 47
+    },
+    {
+      "name": "sell",
+      "email": "sell@sell.com",
+      "mobile": "1234567890",
+      "department": "Sales-Representative",
+      "createdBy": "4",
+      "id": 48
+    },
+    {
+      "name": "jack",
+      "email": "jack@jack.com",
+      "mobile": "1234567890",
+      "department": "project-sales",
+      "createdBy": "4",
+      "id": 49
+    },
+    {
+      "name": "askme",
+      "email": "ask@ask.com",
+      "mobile": "1234567890",
+      "department": "Sales-Representative",
+      "createdBy": "4",
+      "id": 50
+    },
+    {
+      "name": "client",
+      "email": "client@gmail.com",
+      "mobile": "0987654321",
+      "department": "project-sales",
+      "createdBy": "4",
+      "id": 51
+    }
+  ]
+}
